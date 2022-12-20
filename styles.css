@@ -1,0 +1,38 @@
+*
+.encadrement{
+    border-radius: 5px;
+    margin-right: 800px;
+    background-color: #5941ff;
+}
+form .corps-form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+form .corps-form .boite{
+    margin-top: 20px;
+    display: block;
+    flex-direction: column;
+}
+input{
+    padding: 3px 1px 3px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    outline-color: yellow;
+    background-color: #5941ff;
+}
+textarea{
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    outline-color: yellow;
+    background-color: #5941ff;
+    color: white;
+    height: 80px;
+    width: 200px;
+    resize: none;
+}
+.boite{
+    color: white;
+}
